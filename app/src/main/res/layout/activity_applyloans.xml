@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="12dp"
+    android:background="@drawable/grad_bg"
+    android:clipToPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/banner_container"
+        android:layout_marginTop="15dp"
+        android:background="@color/transparent">
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/lay_bg"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Almost Done"
+                    android:textAppearance="@color/colorPrimary"
+                    android:textColor="@color/coloredtext"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/applytext"
+                    android:textAppearance="@color/colorPrimary"
+                    android:textColor="@color/coloredtext"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif" />
+
+                <LinearLayout
+                    android:id="@+id/linlay1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_login"
+                    android:layout_marginLeft="@dimen/big_small"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/big_small"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/username_text_input_layout1"
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:textColorHint="@color/text_input">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_margin="7dp"
+                            android:drawableLeft="@drawable/ic_apply"
+                            android:drawablePadding="5dp"
+                            android:ems="10"
+                            android:fontFamily="@font/josen"
+                            android:hint="Enter Amount"
+                            android:inputType="number"
+                            android:paddingLeft="@dimen/textpadding"
+                            android:paddingRight="@dimen/textpadding"
+                            android:textColor="@color/coloredtext"
+                            android:textSize="22dp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/request_loan"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/brg2"
+                    android:paddingLeft="40dp"
+                    android:paddingRight="40dp"
+                    android:text="Proceed"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/josen" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" />
+</RelativeLayout>

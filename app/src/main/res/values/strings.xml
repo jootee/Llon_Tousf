@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Sintal Check</string>
+
+
+    <string name="appSDK_applovin">pxeWh5sQ5hzZhOWdq5yLfX7WFEPgIPB33VDV0id4IS3UX373ZqZhHxT3ekamGxH7563Bvh2mTM9Su-ouusPI7z</string>
+    <string name="bannerID_applovin">9ddd6532b4554d58</string>
+    <string name="intersID_applovin">925e1c8e538fc5bf</string>
+
+    <string name="facebook_app_id">379936193534280</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="slide_1_title">Welcome To Sintal Check We will Guide You On How To: </string>
+    <string name="slide_1_desc">Qualify for instant loans upto USD. 5,000. Anywhere, anytime with a lot of advantages</string>
+    <string name="slide_2_desc">Receive money to your phone directly in less than 24 hours</string>
+    <string name="slide_2_title">No Delays</string>
+    <string name="slide_3_desc">Best discounts on your loan repayments depending on the number of your referrals</string>
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_4_desc">Borrow with confidence, repay with much ease</string>
+    <string name="slide_4_title">Simple and Transparent</string>
+    <string name="procedure">1. Create you account/Login \n 2. Enter Identification Details \n 3. Enter Referrral Code \n</string>
+    <string name="get_loan">Proceed In 3 Easy Steps</string>
+    <string name="start">START</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="registertext">All the information you provide \nare encrypted and secured</string>
+    <string name="applytext">Dear Customer, \n \nConsidering your Loan transaction history, your loan level is Gold. You qualify for a loan upto USD.5,000. \n \nFor this first time application, We will now povide to you various companies that offers loans up to USD.15,000. \n\n Please note that you could go higher based on the company standards.</string>
+    <string name="crb_info">About CRB</string>
+    <string name="crb_detaik">CRB (Credit Reference Bureau) is a company that collects data on loans issued by lending institutions, and consequently creates reports (known as credit reports) on a borrowers current and past loans. With this information, a CRB is able to draw out the repayment patterns of each borrower. Lenders will obtain your credit report and use this repayment information to determine if they will issue you with a loan. In Kenya, we have three CRBs; all licensed for operation and regulated by the Central Bank of Kenya:</string>
+    <string name="status_pending">Your information wasn\'t approved. Once Approved You Will Receive Notification SMS</string>
+    <string name="prove">The law permits Credit providers to submit names of individuals with any Non-Performing Loans to Credit Reference Bureaus for blacklisting. There are currently three licensed CRB companies in Kenya:</string>
+    <string name="crb_prov1">TRANSUNION</string>
+    <string name="crbb_prov1">How to Check CRB status via Mobile App\n\n 1. Download TransUnion Nipashe app from Google Play store (For Android Users)\n 2. Enter your ID number, Mobile Phone Number and names\n 3. Check Status\n 4. If GOOD! Message appears as shown in image the below then you are fine\n\n NOTE: This process is absolutely free. If you need any further information than that then you need to pay USD 650. Getting a clearance certificate with Transunion will cost you USD. 2200.\n Checking CRB status via SMSn\n1. Send your names to 21272n\n2. Then, Enter your National ID number\n 3. Choose CC (meaning Credit Status)\n 4. You will then Receive your CRB status. Good will mean you are not while default will mean you are blacklisted\n\n Contacts\n • Office Location: Prosperity House, Westlands Rd, Off Museum Hill in Westlands, Nairobi. Mobile Phone Number: +254 20 3751799 or 0730651000\n • Email: info@transunion.com\n • Official website:\n http:/www.transunionnipashe.co.ke</string>
+    <string name="crb_prov">CRB Providers</string>
+    <string name="crb_prov2">METROPOL</string>
+    <string name="crb_prov3">CREDITINFO</string>
+    <string name="crbb_prov2">You can access CRB services from Metropol through\n Metropol website,\nmetropol crystobol app or by\n dialling*433#.\n If you have chosen to register with metropol,then check out these steps;\n\n Register With Metropol\n • You will Pay USD 50 as registration fees through the Paybill number 220388.Enter your ID number as the account number.\n • You\'ll get an SMS with your unique PIN details,a Reference Number and a special Link/li&gt; Access Metropol CRB services\n After paying the registration fees ,now you\'re allowed to check your CRB status.\n • You can choose to dial *433# and enter PIN and you\'ll get your listing status through an SMS.\n • You can choose to use the metropol Crystobol app.Login and view you CRB status.\n • You can visit metropol website ,Login and view your listing status.\n There are other services which you can also get from Metropol.Note that after payment of the required fees, you\'ll follow the same steps as checking your CRB status above.Pay all the fees the same way you paid for registration.\n You can visit metropol website ,Login and view your listing status.\n Metropol CRB\n • Credit Score-Pay USD150.You are entitled to one free credit report in a year.Pa only to get more than one report in a year. Metropol gives a score between 200 and 900.Any score below 400 will mean you\'re a defaulter and lender can\'t give you loans.Any score above 400 will mean fair and lenders will give you loans with a lot of caution.Good credit score is any score near 900 and lenders will give you cheap loans.\n • Credit Report- Pay USD250.This is a detailed report on how you interact with financial institutions.\n • Who listed you- Pay USD 50 to know who sent your name to the CRB.\n • Clearance Certificate- Pay USD2200.After clearing all your defaulted loans, you\'ll be issued with a clearance certificate Contacts\n • Office Location: 9th Floor, Barclays Plaza, Loita street, Nairobi (Metropol Credit Reference Bureau Limited)\n • Phone Number: +254709834000\n • Official website: http://metropol.co.ke/</string>
+    <string name="crbb_prov3">How to check your CRB status\n\n CreditInfo entirely works on the information they receive through emails. but first you will be required to fill;\n • Online credit request form to obtain your certificate of clearance\n • And if you feel that your Credit Report Contains incorrect information you will be asked to fill Credit report Dispute form.\n Creditinfo Kenya’s core business is information related to credit, offering services to cover each stage of the customer life cycle. Contacts\n • Call:+254 20 375 7272\n • Physical address: Spark Suite, Parklands road\n • E-mail: info@creditinfo.co.ke\n • Email2:consumercare@creditinfo.co.ke\n • Date licensed: 29th April 2015\n • Website: https://ke.creditinfo.com/</string>
+    <string name="send_text">Submit Message</string>
+    <string name="crb_form">CRB Inquiries Form</string>
+    <string name="mor_about">The benefits:\n • Stay up to date with top loaning companies;\n\n • Track your credit with My Tala Extra Loans Status\n • Easy repayment schedule that keeps you on track with your payments\n • Millions of customers success stories to inspire you on your journey\n • Easy repayment schedule keeps you on track with your payments\n • Maximum Amount\n • Interests and Rates\n • Number of Downloaded Apps\n • In-depth Analysis of the app\n • etc\n</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <!--    ADS-->
+</resources>

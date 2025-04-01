@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFC107</color>
+    <color name="purple_500">#25282B</color>
+    <color name="purple_700">#301268</color>
+    <color name="teal_200">#2B2633</color>
+    <color name="white">#FFFFFF</color>
+
+
+    <color name="bg_">#f9fafb</color>
+    <color name="bg_blue">#085f85</color>
+    <color name="bg_draw">#167774</color>
+    <color name="bg_small">#301268</color>
+    <color name="btncolorly">#195a8e</color>
+    <color name="button_text">#ffffff</color>
+    <color name="cardview_light_background">#ffffffff</color>
+
+
+    <color name="colorAccent">#18c729</color>
+    <color name="colorHint">#b54b4e4e</color>
+
+
+
+    <color name="colorPrimary">#CF0FFA</color>
+    <color name="colorPrimaryDark">#C315D6</color>
+
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorbtn">#ffffff</color>
+    <color name="colored">#d1c2c2</color>
+    <color name="coloredtext">#0a0a0a</color>
+    <color name="common_google_signin_btn_text_light_default">#ffffff</color>
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+    <color name="edit_text">#070707</color>
+    <color name="gradStart">#00BCD4</color>
+    <color name="gradStop">#027B8A</color>
+    <color name="lay1">#ffffff</color>
+    <color name="menuasset">#19987f</color>
+    <color name="menutext">#107832</color>
+    <color name="pending">#f80404</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="text_hint">#b30c0b0b</color>
+    <color name="text_input">#b30c0b0b</color>
+    <color name="transparent">#00000000</color>
+    <color name="txtMain">#fcfcfc</color>
+</resources>

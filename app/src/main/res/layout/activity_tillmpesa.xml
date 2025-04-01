@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A86464">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/banner_container"
+        android:gravity="top|bottom|center_vertical|fill_vertical|center_horizontal|center"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#7A6444">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="#145961"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="COMMITMENT"
+                    android:textColor="#fbfbfb" />
+
+                <TextView
+                    android:id="@+id/text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="324dp"
+                    android:background="#f8f6f6"
+                    android:padding="10dp"
+                    android:textColor="#050505"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+
+                    android:text="https://www.consumeraffairs.com/in_home/united-consumer-financial-services.html" />
+
+
+                <TextView
+                    android:id="@+id/textView233"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:text="https://www.consumeraffairs.com/finance/tower_loan.html" />
+
+
+                <TextView
+                    android:id="@+id/textView234"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+
+                    android:text="https://www.consumeraffairs.com/finance/monterey-financial-services.html" />
+
+
+                <TextView
+                    android:id="@+id/textView235"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+
+                    android:text="https://www.consumeraffairs.com/finance/phoenix-financial-llc.html" />
+
+
+                <TextView
+                    android:id="@+id/textView236"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+
+                    android:text="https://www.consumeraffairs.com/finance/mepco.html" />
+
+
+                <TextView
+                    android:id="@+id/textView237"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+
+                    android:text="https://www.consumeraffairs.com/finance/fiona.html" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="219dp"
+                    android:layout_height="110dp"
+                    android:visibility="gone"
+                    app:srcCompat="@drawable/tlxtill" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="78dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#f3f0f0"
+                    android:textColorHint="#151515"
+                    android:visibility="gone">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mpesainp"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+
+                        android:hint="Copy M-Pesa message received"
+                        android:textColor="@color/text_input" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="346dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/bg_button_register"
+                    android:onClick="confirmmpesa"
+                    android:text="Confirm Message"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:orientation="vertical" />
+</RelativeLayout>

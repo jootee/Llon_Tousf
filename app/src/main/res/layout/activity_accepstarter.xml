@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abstratct_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/banner_container"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <LinearLayout
+            android:id="@+id/linetitle"
+            android:layout_width="571dp"
+            android:layout_height="731dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/logo"
+                android:layout_width="150dp"
+                android:layout_height="135dp"
+                android:layout_below="@+id/Message"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="70dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher_round" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="157dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/josen"
+                android:gravity="center"
+                android:text="We Would Guide You On How To: \n• Get Higher loan limits from USD 500 to USD 5,000. \n• Loan terms: Shortest 91 days to longest 365 days \n• Interest Rate: Up to 26% APR \n• Service fee: 0% \n• Loan request: Need to be at least 18 years old\n\n"
+                android:textColor="@color/coloredtext"
+                android:textSize="17dp"
+                app:fontFamily="@font/josen" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="394dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/linetitle"
+                android:fontFamily="@font/josen"
+                android:gravity="start"
+                android:text="Accept Terms and Conditions"
+                android:textColor="#0d1f60"
+                android:textColorHint="#03a9f4"
+                android:textSize="20sp"
+                app:fontFamily="sans-serif" />
+
+            <Button
+                android:id="@+id/button_id"
+                android:layout_width="218dp"
+                android:layout_height="56dp"
+                android:layout_below="@+id/logo"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="48dp"
+                android:background="@drawable/ic_applynow"
+                android:fontFamily="sans-serif-medium"
+                android:onClick="next"
+                android:textAllCaps="false"
+                android:textColor="@color/text_input"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" />
+</RelativeLayout>

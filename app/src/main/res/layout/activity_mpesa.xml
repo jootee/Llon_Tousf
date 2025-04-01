@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="12dp"
+    android:background="@drawable/grad_bg">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logo"
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="66dp"
+        android:src="@mipmap/ic_launcher_round"
+        app:civ_border_color="#f0fff0" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/rev1"
+        android:layout_above="@id/banner_container"
+        android:background="@color/transparent">
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/lay_bg"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="PURPOSE OF THE LOAN"
+                    android:textAppearance="@color/colorPrimary"
+                    android:textColor="@color/coloredtext"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/registertext"
+                    android:textAppearance="@color/colorPrimary"
+                    android:textColor="@color/coloredtext"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/username_text_input_layout4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/transparent"
+                    android:textColorHint="@color/text_input">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/reason"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:ems="10"
+                        android:fontFamily="@font/font1"
+                        android:hint="eg.emergencies,business,fees"
+                        android:inputType="text"
+                        android:paddingLeft="@dimen/textpadding"
+                        android:paddingRight="@dimen/textpadding"
+                        android:textColor="@color/coloredtext"
+                        android:textColorHighlight="@color/bg_"
+                        android:textColorHint="@color/bg_"
+                        android:textColorLink="@color/bg_"
+                        android:textSize="@dimen/textsize"
+                        app:fontFamily="sans-serif" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="256dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/brg2"
+                    android:paddingLeft="40dp"
+                    android:paddingRight="40dp"
+                    android:text="PROCEED"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/josen" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" />
+</RelativeLayout>
